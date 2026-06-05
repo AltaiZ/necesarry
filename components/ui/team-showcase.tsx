@@ -17,43 +17,55 @@ export interface TeamMember {
   role: string;
   image: string;
   href?: string;
+  registration?: string;
+  passport?: string; 
 }
 
 const DEFAULT_MEMBERS: TeamMember[] = [
   {
     id: '2',
     name: 'Altai',
-    role: 'Developer',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2vnSxNNVGZV2MXRjlGELl-NgLl5kXdpDR6A&s',
+    role: 'Developer, Chef, Designer, Music',
+    image: '/Altai.JPG',
     href: '/members/altai',
+    registration: 'УХ88113078',
+    passport: 'E2854329',
   },
   {
     id: '3',
     name: 'Motu',
-    role: 'Accountant',
-    image: 'https://media.licdn.com/dms/image/v2/D4D03AQGVqrPPAGHtoQ/profile-displayphoto-scale_200_200/B4DZwhAkjaHwAY-/0/1770080338529?e=2147483647&v=beta&t=q-_6p1VCJ8NN8eHj9zUFwJZds_XpKez9Hy14SAIDp4M',
+    role: 'Accountant, Make Money, Beauty',
+    image: '/Motu.JPG',
     href: '/members/motu',
+    registration: 'УЮ89042702',
+    passport: 'E2854328',
   },
   {
     id: '4',
-    name: 'Cindy Was Here',
-    role: 'Student',
-    image: 'https://media.licdn.com/dms/image/v2/D4D03AQE-Z7-S1LSYNQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1724143166545?e=2147483647&v=beta&t=6IPCwgOzblGt4p2fEdnY74gMbLyRHii5Ite3A39qQsY',
+    name: 'Cindy',
+    role: 'Student, Bossy, AWP, Musicpedia, Cat lover',
+    image: '/Cindy.JPG',
     href: '/members/cindy',
+    registration: 'УК12321029',
+    passport: 'NULL',
   },
   {
     id: '5',
-    name: 'Miku',
-    role: 'Student',
-    image: 'https://media.licdn.com/dms/image/v2/D4D03AQEkTAbZLlSrLg/profile-displayphoto-scale_200_200/B4DZoHdu8BGgAY-/0/1761061833315?e=2147483647&v=beta&t=Rg1dBTvq9X2heyhuhBwG2DsEkG65v0vQ35hF2FSeYns',
+    name: 'Miko',
+    role: 'Student, Cute, Kind, Dancer',
+    image: '/Miku.JPG',
     href: '/members/miku',
+    registration: 'УЖ14222781',
+    passport: 'NULL',
   },
   {
     id: '6',
     name: 'Babaka',
-    role: 'Student',
-    image: 'https://i.pravatar.cc/400?img=16',
+    role: 'Student, Joker, Funny, Love, Swim',
+    image: '/Babaka.JPG',
     href: '/members/babaka',
+    registration: 'УЗ17290424',
+    passport: 'E2854327',
   },
 ];
 
