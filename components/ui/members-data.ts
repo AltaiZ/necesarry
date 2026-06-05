@@ -18,7 +18,7 @@ export const DEFAULT_MEMBERS: TeamMember[] = [
   {
     id: '2',
     name: 'Altai',
-    role: 'Developer, Chef, Designer, Music',
+    role: 'Developer, Chef, Designer, Music, Photographer',
     image: '/Altai.JPG',
     href: '/members/altai',
     registration: 'УХ88113078',
@@ -27,7 +27,7 @@ export const DEFAULT_MEMBERS: TeamMember[] = [
   {
     id: '3',
     name: 'Motu',
-    role: 'Accountant, Make Money, Beauty',
+    role: 'Accountant, Make Money, Beauty, Fashion, Social Media',
     image: '/Motu.JPG',
     href: '/members/motu',
     registration: 'УЮ89042702',
@@ -36,7 +36,7 @@ export const DEFAULT_MEMBERS: TeamMember[] = [
   {
     id: '4',
     name: 'Cindy',
-    role: 'Student',
+    role: 'Student, Bossy, AWP, Musicpedia, Cat lover',
     image: '/Cindy.jpg',
     href: '/members/cindy',
     registration: 'УК12321029',
@@ -55,7 +55,7 @@ export const DEFAULT_MEMBERS: TeamMember[] = [
     id: '6',
     name: 'Babaka',
     role: 'Student, Joker, Funny, Love, Swim',
-    image: '/Babaka.JPG',
+    image: '/Babaka.jpg',
     href: '/members/babaka',
     registration: 'УЗ17290424',
     passport: 'E2854327',
