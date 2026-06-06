@@ -65,7 +65,7 @@ export const DEFAULT_MEMBERS: TeamMember[] = [
     image: '/Cindy.jpg',
     href: '/members/cindy',
     registration: 'УК12321029',
-    passport: 'NULL',
+    passport: 'E3397412',
     documents: [
       { title: 'yesui-e', file: '/document-previews/yesui-e.jpg', filename: 'yesui-e.jpg', preview: '/document-previews/yesui-e.jpg' },
       { title: 'yesui', file: '/document-previews/yesui.jpg', filename: 'yesui.jpg', preview: '/document-previews/yesui.jpg' },
@@ -78,7 +78,7 @@ export const DEFAULT_MEMBERS: TeamMember[] = [
     image: '/Miku.JPG',
     href: '/members/miku',
     registration: 'УЖ14222781',
-    passport: 'NULL',
+    passport: 'E3397413',
     documents: [
       { title: 'ujin-e', file: '/document-previews/ujin-e.jpg', filename: 'ujin-e.jpg', preview: '/document-previews/ujin-e.jpg' },
       { title: 'ujin', file: '/document-previews/ujin.jpg', filename: 'ujin.jpg', preview: '/document-previews/ujin.jpg' },
