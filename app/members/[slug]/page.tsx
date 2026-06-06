@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { DEFAULT_MEMBERS } from '@/components/ui/members-data'
+import MemberDocumentsButton from '@/components/ui/member-documents-button'
 
 interface PageProps {
   params: Promise<{
@@ -69,6 +70,11 @@ export default async function MemberPage({ params }: PageProps) {
             <p className="font-medium">
               {member.passport}
             </p>
+            {member.documents && member.documents.length > 0 && (
+              <div className="flex justify-center pt-4">
+                <MemberDocumentsButton href={`/members/${slug}/documents`} />
+              </div>
+            )}
           </div>
 
         </div>
